@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Dicty</string>
+
+    <string name="lbl_search">Search</string>
+    <string name="lbl_meanings">Meanings</string>
+    <string name="lbl_bookmarks">Bookmarks</string>
+    <string name="lbl_settings">Settings</string>
 </resources>
