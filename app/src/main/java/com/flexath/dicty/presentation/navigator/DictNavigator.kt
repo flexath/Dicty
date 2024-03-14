@@ -46,6 +46,7 @@ fun DictNavigator() {
                 route = route,
                 modifier = Modifier.fillMaxWidth(),
                 onClick = {
+                    // state hoisting
                     Toast.makeText(context,"menu is clicked",Toast.LENGTH_SHORT).show()
                 }
             )
