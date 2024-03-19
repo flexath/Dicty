@@ -13,7 +13,10 @@ val Pink40 = Color(0xFF7D5260)
 val colorPrimary = Color(0xFF34E1A2)
 val colorSecondary = Color(0xFF0D1E25)
 val colorTertiary = Color(0xFF4B33E1)
-val colorBackground = Color(0xFFF1F1F1)
+val colorBackground = Color(0xFFFBFBFB)
 
 val colorTextDark = Color(0xFF0D0D25)
 val colorTextLight = Color(0xFFF1F1F1)
+
+val colorUnselected = Color(0xFFA7AABD)
+val colorFavorite = Color(0xFFF44336)

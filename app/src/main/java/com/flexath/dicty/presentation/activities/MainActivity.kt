@@ -3,6 +3,7 @@ package com.flexath.dicty.presentation.activities
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.background
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -51,7 +52,11 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier
                         .fillMaxSize()
                 ) {
-                    DictNavigator()
+                    DictNavigator(
+                        onClickFab = {
+
+                        }
+                    )
                 }
             }
         }
